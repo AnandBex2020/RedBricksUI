@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className={`App min-h-screen flex flex-col ${themeClasses[theme].body}`}>
-        <Header />
+        <Header /> {/*Header section*/}
 
         <main className="flex-1 p-6">
           <Routes>
